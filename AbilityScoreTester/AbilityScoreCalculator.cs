@@ -16,7 +16,7 @@ namespace AbilityScoreTester
 			double divided = RollResult / DivideBy;
 
 			// casting divided fixes complier error
-			int added = AddAmount += (int)divided;
+			int added = AddAmount + (int)divided;
 
 
 			if (added < Minimum)
